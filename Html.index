@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="T1de — украинский игрок Counter-Strike 2. FACEIT: Ky0suke4.">
+<meta name="keywords" content="T1de, T1de CS2, T1de Ukraine, T1de FACEIT, Ky0suke4">
+
+<title>T1de — CS2 Player</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #08090d;
+    color: white;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at 50% 20%, #3b1010, transparent 40%),
+        linear-gradient(135deg, #08090d, #15161c);
+    z-index: -1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.logo span {
+    color: #ff3030;
+}
+
+.badge {
+    border: 1px solid #333;
+    padding: 8px 14px;
+    border-radius: 20px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.hero {
+    text-align: center;
+    padding: 110px 10px 100px;
+}
+
+.kicker {
+    color: #ff4040;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(70px, 16vw, 150px);
+    line-height: .85;
+    letter-spacing: -7px;
+    text-shadow: 0 0 40px rgba(255,40,40,.3);
+}
+
+.subtitle {
+    max-width: 650px;
+    margin: 30px auto;
+    color: #aaa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background: #e93232;
+    color: white;
+    text-decoration: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: #ff4545;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: rgba(255,255,255,.04);
+    border: 1px solid #292a31;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.label {
+    color: #777;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.value {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+p {
+    color: #aaa;
+    line-height: 1.8;
+}
+
+.search {
+    margin-top: 20px;
+    padding: 20px;
+    border-left: 3px solid #e93232;
+    background: #111217;
+    color: #aaa;
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #222;
+    padding: 30px;
+    color: #666;
+    font-size: 12px;
+}
+
+@media(max-width:650px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 70px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo">T<span>1</span>DE</div>
+    <div class="badge">🇺🇦 UKRAINE • CS2</div>
+</nav>
+
+<div class="hero">
+    <div class="kicker">COUNTER-STRIKE 2</div>
+
+    <h1>T1DE</h1>
+
+    <div class="subtitle">
+        Ukrainian CS2 player focused on competitive improvement
+        and the path toward professional esports.
+    </div>
+
+    <a class="btn"
+       href="https://www.faceit.com/ru/players/Ky0suke4"
+       target="_blank">
+       VIEW FACEIT PROFILE
+    </a>
+</div>
+
+<section class="grid">
+
+    <div class="card">
+        <div class="label">Nickname</div>
+        <div class="value">T1de</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Game</div>
+        <div class="value">Counter-Strike 2</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Country</div>
+        <div class="value">🇺🇦 Ukraine</div>
+    </div>
+
+</section>
+
+<section>
+    <h2>About T1de</h2>
+
+    <p>
+        T1de is a young Ukrainian Counter-Strike 2 player
+        developing in the competitive scene. His goal is to
+        improve individual skill, teamwork and eventually
+        reach the professional esports level.
+    </p>
+</section>
+
+<section>
+    <h2>Find T1de</h2>
+
+    <div class="search">
+        T1de CS2<br>
+        T1de Ukraine<br>
+        T1de FACEIT<br>
+        T1de Counter-Strike 2<br>
+        Ky0suke4
+    </div>
+</section>
+
+<footer>
+    © 2026 T1de • Counter-Strike 2
+</footer>
+
+</div>
+
+</body>
+</html>
